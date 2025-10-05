@@ -25,8 +25,7 @@ pyfiglet
 pytz
 future==0.18.3
 search_engine_parser
-py-tgcalls==0.9.7
-pykeyboard
+py-tgcalls==1.2.9
 pyshorteners
 #pyrogram==2.0.106
 pyrofork
