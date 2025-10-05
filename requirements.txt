@@ -55,3 +55,4 @@ opencv-python
 googlesearch-python
 sympy
 bing_image_downloader
+ntgcalls==1.1.2
