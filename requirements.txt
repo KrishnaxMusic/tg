@@ -56,3 +56,4 @@ sympy
 bing_image_downloader
 ntgcalls==1.1.2
 lyricsgenius==3.0.0
+uvloop; sys_platform != "win32"
