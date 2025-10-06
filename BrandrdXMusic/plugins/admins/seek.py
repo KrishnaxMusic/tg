@@ -6,6 +6,7 @@ from BrandrdXMusic.core.call import Hotty
 from BrandrdXMusic.misc import db
 from BrandrdXMusic.utils import AdminRightsCheck, seconds_to_min
 from BrandrdXMusic.utils.inline import close_markup
+from BrandrdXMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
