@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from tg import LOGGER, YouTube, app
-from tg.misc import db
-from tg.utils.database import (
+from BrandrdXMusic import LOGGER, YouTube, app
+from BrandrdXMusic.misc import db
+from BrandrdXMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from tg.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from tg.utils.exceptions import AssistantErr
-from tg.utils.formatters import check_duration, seconds_to_min, speed_converter
-from tg.utils.inline.play import stream_markup
-from tg.utils.stream.autoclear import auto_clean
-from tg.utils.thumbnails import gen_thumb
+from BrandrdXMusic.utils.exceptions import AssistantErr
+from BrandrdXMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from BrandrdXMusic.utils.inline.play import stream_markup
+from BrandrdXMusic.utils.stream.autoclear import auto_clean
+from BrandrdXMusic.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
